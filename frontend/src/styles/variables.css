@@ -1,0 +1,13 @@
+:root {
+  --color-brand-light: tomato;
+  --color-brand-dark: #49557e;
+  --color-primary-light: #fff4f2;
+  --color-secondary-dark: #262626;
+  --color-dark: black;
+  --color-light: white;
+  --color-text: #333333;
+  --color-bg-2: #e2e2e2;
+  --color-bg-3: #d9d9d9;
+  --color-footer-bg: #323232;
+  --color-gray-light: #c5c5c5;
+}
