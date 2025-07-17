@@ -37,3 +37,22 @@
 .navbar__button:hover {
     background-color: var(--color-primary-light);
 }
+
+.navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid var(--color-brand-dark);
+}
+
+.navbar__search-icon {
+    position: relative;
+}
+
+.navbar__search-icon .dot {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: var(--color-brand-light);
+    border-radius: 5px;
+}

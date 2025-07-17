@@ -20,6 +20,9 @@ a {
 ul {
   list-style-type: none;
 }
+li {
+  cursor: pointer;
+}
 
 .app {
   width: 80%;
