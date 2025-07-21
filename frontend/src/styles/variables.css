@@ -7,9 +7,11 @@
   --color-light: white;
   --color-text: #333333;
   --color-text-light: #808080;
+  --color-text-dark: #676767;
   --color-hr-light: #e2e2e2;
   --color-bg-3: #d9d9d9;
   --color-footer-bg: #323232;
   --color-gray-light: #c5c5c5;
   --color-gray-dark: #747474;
+  --color-shadow-item: #00000015;
 }
