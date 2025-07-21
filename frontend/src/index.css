@@ -22,6 +22,8 @@ ul {
 }
 li {
   cursor: pointer;
+  list-style: none;
+  margin-bottom: 10px;
 }
 
 .app {
