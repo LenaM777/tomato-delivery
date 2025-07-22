@@ -19,6 +19,10 @@
     width: 50px;
 }
 
+.cart-items__item .cross {
+    cursor: pointer;
+}
+
 .cart hr {
     height: 1px;
     background-color: var(--color-hr-light);
