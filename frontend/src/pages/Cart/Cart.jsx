@@ -7,8 +7,8 @@ const Cart = () => {
 
   return (
     <div className="cart">
-      <div className="cart-items">
-        <div className="cart-items__title">
+      <div className="cart__items">
+        <div className="cart__title">
           <p>Items</p>
           <p>Title</p>
           <p>Price</p>
@@ -22,7 +22,7 @@ const Cart = () => {
           if (cartItems[item._id] > 0) {
             return (
               <div>
-                <div className="cart-items__title cart-items__item">
+                <div className="cart__title cart__item">
                   <img src={item.image} alt="" />
                   <p>{item.name}</p>
                   <p>${item.price}</p>
@@ -37,6 +37,43 @@ const Cart = () => {
             );
           }
         })}
+      </div>
+      <div className="cart__bottom">
+        <div className="cart-total">
+          <h2>Cart Totals</h2>
+          <div>
+            <div className="cart-total__details">
+              <p>Subtotal</p>
+              <p>{0}</p>
+            </div>
+            <hr />
+            <div className="cart-total__details">
+              <p>Delivery Fee</p>
+              <p>{2}</p>
+            </div>
+            <hr />
+            <div className="cart-total__details">
+              <b>Total</b>
+              <b>{0}</b>
+            </div>
+          </div>
+          <button className="cart-total__button">PROCEED TO CHECKOUT</button>
+        </div>
+        <div className="cart-promocode">
+          <div>
+            <p className="cart-promocode__text">
+              If you have promo code, Enter it here
+            </p>
+            <div className="cart-promocode__form">
+              <input
+                className="cart-promocode__input"
+                type="text"
+                placeholder="promo code"
+              />
+              <button className="cart-promocode__button">Submit</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
