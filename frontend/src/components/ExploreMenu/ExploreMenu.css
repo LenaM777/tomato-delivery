@@ -10,7 +10,7 @@
 }
 
 .explore-menu__text {
-    max-width: 60%;
+    max-width: 70%;
     color: var(--color-text-light);
 }
 
@@ -53,4 +53,11 @@
     height: 2px;
     background-color:var(--color-hr-light);
     border: none;
+}
+
+@media (max-width: 768px) {
+    .explore-menu__text {
+        max-width: 100%;
+       font-size: 14px;
+    }
 }

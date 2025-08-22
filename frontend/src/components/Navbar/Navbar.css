@@ -20,7 +20,7 @@
 .navbar__right {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 32px;
 }
 
 .navbar__button {
@@ -56,3 +56,24 @@
     background-color: var(--color-brand-light);
     border-radius: 5px;
 }
+
+
+@media (max-width: 768px) {
+    .navbar__logo {
+        width: 120px;
+    }
+
+    .navbar__menu {
+        display: none;
+    }
+
+    .navbar__right {
+        gap: 20px;
+    }
+
+    .navbar__button {
+        padding: 8px 20px;
+    }
+}
+
+
