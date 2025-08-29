@@ -39,3 +39,17 @@
     border-radius: 50px;
 }
 
+@media (max-width: 480px) {
+
+    .header__contents {
+        max-width: 65%;
+    }
+    .header__text {
+        display: none;
+    }
+
+    .header__button {
+        padding: 2vw 4vw;
+    }
+
+}
