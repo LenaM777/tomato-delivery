@@ -16,7 +16,7 @@ Application has the user authentication system so that anyone can create an acco
 
 This React (Vite) pet project deployed on **Vercel**.
 
-[View on Vercel](https://your-project-name.vercel.app)
+[View on Vercel](https://tomato-delivery-sepia.vercel.app/)
 
 ## Screenshots
 
